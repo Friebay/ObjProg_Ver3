@@ -21,14 +21,9 @@
 - Išveda surūšiuotus studentus į du atskirus failus.
 - Matuoja programos veikimo spartą, įskaitant failų kūrimą, duomenų nuskaitymą, rūšiavimą ir išvedimą.
 
-## Reikalavimai
-
-- C++11 arba naujesnė versija.
-- Standartinė šablonų biblioteka (STL).
-
 ## Naudojimas
 
-0. Susikompiliuokite programą arba atsisiųskite sukompiliuotą versiją iš Releases.
+0. Atsisiųskite Setup failą iš Releases.
 
 1. Paleidus programą, pirmiausia pasirinkite duomenų konteinerį:
 
@@ -439,3 +434,6 @@ return;
 # v2.0 versija
  - Šioje versijoje pridėta Doxygen dokumentacija, kurią galite peržiūrėti faile doxy_html/index.html
  - Pridėtas unit testų kodas aplankale project_root/tests, kuriame galima išbandyti Žmogaus ir Studento klases.
+
+# v3.0 versija
+ - Šioje versijoje sukurtas Setup failas, kuris automatiškai instaliuoja programą naudotojo kompiuteryje.
