@@ -37,12 +37,5 @@ set(SOURCES
 # Create executable
 add_executable(program ${SOURCES})
 
-# Embed manifest file to request admin rights
-if (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-    add_custom_command(TARGET program POST_BUILD
-        COMMAND mt.exe -manifest "${CMAKE_SOURCE_DIR}/StudPazSkaiciuokle.manifest" -outputresource:"$<TARGET_FILE:program>;1"
-    )
-endif()
-
 # Installation rules
 install(TARGETS program DESTINATION bin)

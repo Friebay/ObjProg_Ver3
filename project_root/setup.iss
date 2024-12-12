@@ -16,7 +16,6 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
 Source: "C:\Users\zabit\Documents\GitHub\ObjProg_Ver2\project_root\build\StudPazSkaiciuokle.exe"; DestDir: "{app}"; Flags: ignoreversion signonce
-Source: "C:\Users\zabit\Documents\GitHub\ObjProg_Ver2\project_root\StudPazSkaiciuokle.manifest"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\zabit\Documents\GitHub\ObjProg_Ver2\project_root\src\txt_failai\*"; DestDir: "{app}\src\txt_failai"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
