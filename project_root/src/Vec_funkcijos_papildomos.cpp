@@ -189,7 +189,7 @@ void vykdytiVisusZingsnius()
     ofstream csvFile("performance_data.csv", std::ios::app);
     if (!csvFile.is_open())
     {
-        throw runtime_error("Nepavyko atidaryti CSV failo");
+        throw runtime_error("Nepavyko atidaryti performance_data.csv failo");
     }
 
     // Įrašo CSV antraštę, jei failas tuščias
